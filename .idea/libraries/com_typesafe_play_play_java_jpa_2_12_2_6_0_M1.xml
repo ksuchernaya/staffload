@@ -1,0 +1,56 @@
+<component name="libraryTable">
+  <library name="com.typesafe.play:play-java-jpa_2.12:2.6.0-M1" type="repository">
+    <properties maven-id="com.typesafe.play:play-java-jpa_2.12:2.6.0-M1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-java-jpa_2.12/2.6.0-M1/play-java-jpa_2.12-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-java-jdbc_2.12/2.6.0-M1/play-java-jdbc_2.12-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-jdbc_2.12/2.6.0-M1/play-jdbc_2.12-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-jdbc-api_2.12/2.6.0-M1/play-jdbc-api_2.12-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play_2.12/2.6.0-M1/play_2.12-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/build-link/2.6.0-M1/build-link-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-exceptions/2.6.0-M1/play-exceptions-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-netty-utils/2.6.0-M1/play-netty-utils-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-streams_2.12/2.6.0-M1/play-streams_2.12-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-stream_2.12/2.4.17/akka-stream_2.12-2.4.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.4.17/akka-actor_2.12-2.4.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.0/config-1.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/ssl-config-core_2.12/0.2.1/ssl-config-core_2.12-0.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/twirl-api_2.12/1.3.0/twirl-api_2.12-1.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-slf4j_2.12/2.4.17/akka-slf4j_2.12-2.4.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.6/jackson-annotations-2.8.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.6/jackson-databind-2.8.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.6/jackson-datatype-jdk8-2.8.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.6/jackson-datatype-jsr310-2.8.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-json_2.12/2.6.0-M3/play-json_2.12-2.6.0-M3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-functional_2.12/2.6.0-M3/play-functional_2.12-2.6.0-M3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/transaction/jta/1.1/jta-1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/usc/jdbcdslog/1.0.6.2/jdbcdslog-1.0.6.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/tyrex/tyrex/1.0.1/tyrex-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/play/play-java_2.12/2.6.0-M1/play-java_2.12-2.6.0-M1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.10/reflections-0.9.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/jodah/typetools/0.4.8/typetools-0.4.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
