@@ -1,9 +1,15 @@
 package Model;
 
-/**
- * Created by Ivan Kolomiyecs on 22.03.2017.
- */
+import javax.persistence.*;
+
+@Entity
+@Table(name = "okr")
 public class Okr {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(name = "name")
     private String name;
 
     public Okr() {

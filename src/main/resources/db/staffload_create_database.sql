@@ -167,7 +167,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `staffload`.`discipline`
+-- Table `staffload`.`Discipline`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `staffload`.`discipline` (
   `id` INT NOT NULL AUTO_INCREMENT,
@@ -359,7 +359,7 @@ COMMIT;
 
 
 -- -----------------------------------------------------
--- Data for table `staffload`.`discipline`
+-- Data for table `staffload`.`Discipline`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `staffload`;

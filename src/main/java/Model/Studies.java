@@ -1,37 +1,50 @@
 package Model;
 
-/**
- * Created by Ivan Kolomiyecs on 22.03.2017.
- */
+import javax.persistence.*;
+
+@Entity
+@Table(name = "studies")
 public class Studies {
-    private int studies_type_id;
-    private int discipline_id;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(name = "studies_type_id")
+    private Long studies_type_id;
+
+    @Column(name = "discipline_id")
+    private Long discipline_id;
+
+    @Column(name = "hours_budget_x10")
     private int hours_budget_x10;
+
+    @Column(name = "hours_contract_x10")
     private int hours_contract_x10;
 
     public Studies() {
     }
 
-    public Studies(int studies_type_id, int discipline_id, int hours_budget_x10, int hours_contract_x10) {
+    public Studies(Long studies_type_id, Long discipline_id, int hours_budget_x10, int hours_contract_x10) {
         this.studies_type_id = studies_type_id;
         this.discipline_id = discipline_id;
         this.hours_budget_x10 = hours_budget_x10;
         this.hours_contract_x10 = hours_contract_x10;
     }
 
-    public int getStudies_type_id() {
+    public Long getStudies_type_id() {
         return studies_type_id;
     }
 
-    public void setStudies_type_id(int studies_type_id) {
+    public void setStudies_type_id(Long studies_type_id) {
         this.studies_type_id = studies_type_id;
     }
 
-    public int getDiscipline_id() {
+    public Long getDiscipline_id() {
         return discipline_id;
     }
 
-    public void setDiscipline_id(int discipline_id) {
+    public void setDiscipline_id(Long discipline_id) {
         this.discipline_id = discipline_id;
     }
 

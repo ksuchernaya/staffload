@@ -1,36 +1,52 @@
 package Model;
 
-/**
- * Created by Ivan Kolomiyecs on 22.03.2017.
- */
+import javax.persistence.*;
+
+@Entity
+@Table(name = "load")
+//@IdClass(Stream.class)
 public class Load {
-    private int teacher_id;
-    private int discipline;
-    private int stream_id;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(name = "teacher_id")
+    private Long teacher_id;
+
+    @Column(name = "discipline_id")
+    private Long discipline_id;
+
+    @Column(name = "stream_id")
+    private Long stream_id;
+
+    @Column(name = "semester")
     private int semester;
+
+    @Column(name = "academic_year")
     private String academic_year;
 
-    public int getTeacher_id() {
+    public Long getTeacher_id() {
         return teacher_id;
     }
 
-    public void setTeacher_id(int teacher_id) {
+    public void setTeacher_id(Long teacher_id) {
         this.teacher_id = teacher_id;
     }
 
-    public int getDiscipline() {
-        return discipline;
+    public Long getDiscipline() {
+        return discipline_id;
     }
 
-    public void setDiscipline(int discipline) {
-        this.discipline = discipline;
+    public void setDiscipline(Long discipline) {
+        this.discipline_id = discipline;
     }
 
-    public int getStream_id() {
+    public Long getStream_id() {
         return stream_id;
     }
 
-    public void setStream_id(int stream_id) {
+    public void setStream_id(Long stream_id) {
         this.stream_id = stream_id;
     }
 

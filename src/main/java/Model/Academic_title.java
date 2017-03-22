@@ -1,9 +1,16 @@
 package Model;
 
-/**
- * Created by Ivan Kolomiyecs on 22.03.2017.
- */
+import javax.persistence.*;
+
+@Entity
+@Table(name = "academic_title")
 public class Academic_title {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(name = "name")
     private String name;
 
     public Academic_title() {
