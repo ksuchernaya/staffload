@@ -1,24 +1,47 @@
 package Model;
 
-/**
- * Created by Ivan Kolomiyecs on 22.03.2017.
- */
+import javax.persistence.*;
+
+@Entity
+@Table(name = "teacher")
 public class Teacher {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(name = "last_name")
     private String last_name;
+
+    @Column(name = "first_name")
     private String first_name;
+
+    @Column(name = "middle_name")
     private String middle_name;
+
+    @Column(name = "position_id")
     private int position_id;
-    private int academic_degree_id;
-    private int academic_title_id;
+
+    @Column(name = "academic_degree_id")
+    private Long academic_degree_id;
+
+    @Column(name = "academic_title_id")
+    private Long academic_title_id;
+
+    @Column(name = "wage_rate_percentage")
     private int wage_rate_percentage;
+
+    @Column(name = "does_combine_jobs")
     private int does_combine_jobs;
+
+    @Column(name = "specialty_id")
     private int specialty_id;
 
     public Teacher() {
     }
 
     public Teacher(String last_name, String first_name, String middle_name, int position_id,
-                   int academic_degree_id, int academic_title_id, int wage_rate_percentage,
+                   Long academic_degree_id, Long academic_title_id, int wage_rate_percentage,
                    int does_combine_jobs, int specialty_id) {
         this.last_name = last_name;
         this.first_name = first_name;
@@ -63,19 +86,19 @@ public class Teacher {
         this.position_id = position_id;
     }
 
-    public int getAcademic_degree_id() {
+    public Long getAcademic_degree_id() {
         return academic_degree_id;
     }
 
-    public void setAcademic_degree_id(int academic_degree_id) {
+    public void setAcademic_degree_id(Long academic_degree_id) {
         this.academic_degree_id = academic_degree_id;
     }
 
-    public int getAcademic_title_id() {
+    public Long getAcademic_title_id() {
         return academic_title_id;
     }
 
-    public void setAcademic_title_id(int academic_title_id) {
+    public void setAcademic_title_id(Long academic_title_id) {
         this.academic_title_id = academic_title_id;
     }
 
